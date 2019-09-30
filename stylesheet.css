@@ -1263,7 +1263,9 @@ audio {
 #play, #bannar_coming, #balloons_flying,#wish_message,#story {
 	display: none;
 }
-
+.cake-cover {
+	margin-top: 50px;
+}
 .message {
 	margin-top: 200px;
 	display: none;
