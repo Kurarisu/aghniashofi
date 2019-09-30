@@ -163,7 +163,7 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(3000);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					
+				$('.cake').fadeIn('fast');
 				});
 
 			}
