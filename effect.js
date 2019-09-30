@@ -152,8 +152,10 @@ $('document').ready(function(){
 
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
+		$('.cake').fadeOut('fast').promise().done(function(){z
+			$('.message').fadeIn('slow');
+		});
 
-		var i;
 
 		function msgLoop (i) {
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
